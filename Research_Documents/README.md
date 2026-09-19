@@ -1,6 +1,7 @@
 ---
 status: living
 created: 2026-09-18
+updated: 2026-09-19
 audience: llm
 authorship: agent-written
 authority_level: index only — does not make any document in this folder canon
@@ -22,7 +23,9 @@ Hispania's only existing canon on `master` as of 2026-09-18 is the two-line READ
 
 > RPG game set in Iron Age Spain, where the player starts as a Celtiberian tribesman who must side with the Romans, Carthaginians, or Iberians
 
-Everything below that line is still unwritten. These files do not fill that gap. They give later sessions something to argue from.
+James, iPhone, 2026-09-19, revised *priority* (not the stub sentence itself): prioritize non-Celtic Iberians first; Celtiberians later in this project; a Celtic-as-such game might be separate. That lives outside this folder, in `docs/2026-09-19-james-iphone-direction.md`, transcribed by Grok from iPhone.
+
+Everything below the 2020 sentence is still unwritten as design. These files do not fill that gap. They give later sessions something to argue from.
 
 ## Claim tags
 
@@ -37,6 +40,7 @@ Every historical or comparative claim should carry one of:
 
 | Path | What it is |
 |---|---|
+| `../docs/2026-09-19-james-iphone-direction.md` | James's 2026-09-19 spoken direction. Not this folder. Transcribed by Grok from iPhone. |
 | `2026-09-18-iron-age-iberian-warfare-and-soldiers.md` | Peoples, panoply, tactics, mercenary life, Rome/Carthage contact. Quesada is the floor. |
 | `2026-09-18-a-legionarys-life.md` | Alessandro Roberti's 2019 RPG. Official facts vs player-guide mechanics. What Hispania can steal and what it cannot. |
 
@@ -46,3 +50,4 @@ Every historical or comparative claim should carry one of:
 2. Frontmatter must say `authorship: agent-written` (or name the human) and `status: findings — not canon`.
 3. Do not use the filename or title `designer_notes_*`.
 4. Do not edit the root README into a design document on the strength of a findings file.
+5. James's spoken direction does not belong in this folder. Put it under `docs/` and label the commit Grok from iPhone.
